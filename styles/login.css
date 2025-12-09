@@ -1,0 +1,79 @@
+@charset "utf-8";
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+img {
+    vertical-align: top; 
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer; 
+    border: 0;
+}
+
+body { 
+    background: #ffffff; 
+    color: #333333;
+    font-family: "Pretendard", sans-serif;
+    font-style: normal;
+}
+
+.login-page {
+  position: relative;
+  display: flex;
+  width: 1920px;
+  padding: 231px 640px 284px 640px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(243, 236, 223);
+  display: flex;
+  width: 640px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.login-logo {
+  display: flex;
+  gap: 22.24px;
+  width: 396px;
+  height: 132px;
+  padding-top: 12.98px;
+  padding-bottom: 15.14px;
+  margin-bottom: 40px;
+}
+
+.login-logo_img {
+  width: 103.529px;
+  height: 103.88px;
+}
+
+.login-logo_title{
+  color: var(--brand-blue, #3692FF);
+  font-family: "ROKAF Sans";
+  font-size: 66.344px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
